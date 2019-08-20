@@ -9,6 +9,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -75,7 +76,9 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff
+    background-color: #111111;
+    
+    
 }
 
 [tabindex="-1"]:focus {
@@ -7440,7 +7443,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color:  #2ecc71 !important
+    background-image: url(../img/space1.jpg);
 }
 
 a.bg-primary:focus,
@@ -7451,7 +7454,7 @@ button.bg-primary:hover {
 }
 
 .bg-secondary {
-    background-color: #2c3e50 !important
+    background-image: url(../img/space1.jpg);
 }
 
 a.bg-secondary:focus,
@@ -11984,10 +11987,10 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #2c3e50;
+    background-image: url(../img/space1.jpg);
     color: #fff
 }
 
 .copyright {
-    background-color: #1a252f
+    background-image: url(../img/space1.jpg);
 }
