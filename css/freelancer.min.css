@@ -10,6 +10,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+#portText{
+    color: #fff;
+}
+
  #myCard{
     margin-left: auto;
     margin-right: auto;
@@ -6703,7 +6707,7 @@ a.close.disabled {
     flex-direction: column;
     width: 100%;
     pointer-events: auto;
-    background-color: #fff;
+    background-color: #212121;
     background-clip: padding-box;
     border: 0 solid rgba(0, 0, 0, .2);
     border-radius: .75rem;
@@ -6717,7 +6721,7 @@ a.close.disabled {
     z-index: 1040;
     width: 100vw;
     height: 100vh;
-    background-color: #000
+    background-color: #212121
 }
 
 .modal-backdrop.fade {
@@ -6751,7 +6755,7 @@ a.close.disabled {
 
 .modal-title {
     margin-bottom: 0;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 .modal-body {
@@ -11920,7 +11924,8 @@ a.text-dark:hover {
 
 .portfolio-modal .portfolio-modal-title {
     font-size: 2.25rem;
-    line-height: 2rem
+    line-height: 2rem;
+    color: #fff;
 }
 
 @media (min-width:992px) {
