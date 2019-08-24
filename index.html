@@ -533,7 +533,7 @@
             <i class="fas fa-times"></i>
           </span>
         </button>
-        <div class="modal-body text-center">
+        <div class="modal-body text-center" id="flutterModal">
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
@@ -548,9 +548,24 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
+                <img class="img-fluid rounded mb-5" id="phoneScreen" src="img/portfolio/fluttergram/sample.gif" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5" id="portText">...</p>
+                <div class="row">
+                  <div class="col-lg-8 ml-auto project-text">
+                    <h5>About</h5>
+                    <p id="portText">Fluttergram is a instagram clone created using Google's mobile frameworke Flutter.
+                      It's a fully functional mobile application that works on both IOS and Android.</p>
+                  </div>
+                  <div class="col-lg-4 mr-auto project-text">
+                    <h5>Technologies</h5>
+                    <ul id="tech-list">
+                      <li>Flutter</li>
+                      <li>API</li>
+                      <li>Database</li>
+                      <li>Dart</li>
+                    </ul>
+                  </div>
+                </div>
                 <button class="btn btn-primary" onclick="window.location = 'https://github.com/dumpcoder/Fluttergram'">
                   <i class="fab fa-github fa-lg"></i>
                   Repository

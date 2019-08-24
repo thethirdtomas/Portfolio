@@ -9,6 +9,13 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+#flutterModal{
+    max-height: 1150px;
+}
+
+#phoneScreen{
+    height: 40% !important;
+}
 
 #tech-list{
     color: #fff;
